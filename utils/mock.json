@@ -1,0 +1,18 @@
+{
+  "data|1-20": [{
+    "categoryId|+1": 1,
+    "name": "@cname",
+    "list|1-100": [
+      {
+        "id|+1": 1,
+        "name": "@ctitle",
+        "price": "@natural(0, 999)",
+        "img": "@image(250x250)"
+      } 
+    ]
+  }],
+  "statusCode": 200,
+  "header": {
+    "content-type": "application/json; charset=utf-8"
+  }
+}

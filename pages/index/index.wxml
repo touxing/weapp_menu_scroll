@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 左侧菜单 -->
+  <scroll-view class="scroll-left" scroll-top="{{leftTop}}" scroll-with-animation="true" scroll-y="true">
+    <view class="flex justify-center align-center left-item border-bottom {{activeIndex === index && 'active'}}" wx:for="{{list}}"
+      wx:key="index" bind:tap="jumpTo" data-id="{{item.categoryId}}" data-index="{{index}}">
+      {{item.name}}
+    </view>
+  </scroll-view>
+  <!-- 右侧菜单 -->
+  <scroll-view class="scroll-right flex-column" scroll-into-view="{{viewId}}" scroll-with-animation="true"
+    scroll-y="true" bindscroll="scrollRight">
+    <view class="right-item-w" wx:for="{{list}}" wx:key="index" id="scroll-{{item.categoryId}}">
+      <view class="title">{{item.name}}</view>
+      <view class="right-item border-bottom" wx:for="{{item.list}}" wx:key="index">
+        <view class="img-w">
+          <image class="info-img" src="{{item.img}}"></image>
+        </view>
+        <view class="info-w">
+          <view class="info-name">{{item.name}}</view>
+          <view class="info-price">￥{{item.price}}</view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

@@ -1,0 +1,13 @@
+/**app.wxss**/
+.border-bottom {
+  position: relative;
+}
+.border-bottom::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-bottom: 2rpx solid #ccc;
+  transform: scaleY(0.5);
+}
