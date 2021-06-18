@@ -6,7 +6,7 @@
 
 ![](https://gitee.com/hotsuitor/picgo/raw/master/img/2021/06/18/20210618192710.gif)
 
-
+![](assets/img/demo.gif)
 
 ## 原理
 
