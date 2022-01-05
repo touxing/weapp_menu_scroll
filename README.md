@@ -4,9 +4,9 @@
 
 效果图
 
-![](https://gitee.com/hotsuitor/picgo/raw/master/img/2021/06/18/20210618192710.gif)
+![demo](https://gitee.com/hotsuitor/picgo/raw/master/img/2021/06/18/20210618192710.gif)
 
-![](assets/img/demo.gif)
+![demo](assets/img/demo.gif)
 
 ## 原理
 
@@ -20,11 +20,12 @@
 
 ## 数据mock
 
-数据mock文件在 `utils/mock.js` 
+数据mock文件在 `utils/mock.js`
 
 配置mock数据
 
-![image-20210618193437908](https://gitee.com/hotsuitor/picgo/raw/master/img/2021/06/18/20210618193438.png)
+<!-- ![image-20210618193437908](https://gitee.com/hotsuitor/picgo/raw/master/img/2021/06/18/20210618193438.png) -->
+![20210618193438.png](assets/img/20210618193438.png)
 
 ## 结语
 
