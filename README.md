@@ -4,7 +4,7 @@
 
 效果图
 
-![demo](https://gitee.com/hotsuitor/picgo/raw/master/img/2021/06/18/20210618192710.gif)
+<!-- ![demo](https://gitee.com/hotsuitor/picgo/raw/master/img/2021/06/18/20210618192710.gif) -->
 
 ![demo](assets/img/demo.gif)
 
